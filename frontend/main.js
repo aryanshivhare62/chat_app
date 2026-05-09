@@ -1,6 +1,6 @@
 
 
-const socket = io()
+const socket = io("https://chat-app-w8rn.onrender.com")
 
 const clientsTotal = document.getElementById('clients-total')
 
